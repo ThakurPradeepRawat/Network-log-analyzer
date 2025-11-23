@@ -1,0 +1,19 @@
+NETWORK LOG ANALYSIS SUMMARY
+==============================
+issue_type
+Auth Failure       2
+Packet Loss        2
+Connection Drop    2
+DNS Timeout        2
+
+==============================
+DETAILED ERROR LOGS
+timestamp,level,message,issue_type
+2024-03-10 08:16:05,ERROR,Authentication failure for user: admin via SSH.,Auth Failure
+2024-03-10 08:20:45,WARN,Packet loss detected on interface eth0 (5%).,Packet Loss
+2024-03-10 08:22:10,ERROR,Connection dropped: Remote host 192.168.1.55 not responding.,Connection Drop
+2024-03-10 08:25:00,ERROR,DNS timeout resolving gateway.internal.net.,DNS Timeout
+2024-03-10 08:40:11,ERROR,Authentication failure for user: root.,Auth Failure
+2024-03-10 08:45:00,ERROR,DNS timeout: unable to reach DNS server 8.8.8.8.,DNS Timeout
+2024-03-10 08:50:33,ERROR,Connection dropped during file transfer.,Connection Drop
+2024-03-10 09:05:00,WARN,Packet loss detected (15%) on uplink.,Packet Loss
