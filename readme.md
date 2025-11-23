@@ -1,6 +1,6 @@
 # 📡 Network Log Analyzer
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.13+-blue)
 ![Library](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
